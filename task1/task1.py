@@ -2,9 +2,9 @@ import sys
 
 file = sys.argv[1]
 with open(file) as f:
-    n = int(f.readline())
     m = int(f.readline())
-
+    n = int(f.readline())
+    f.close()
 
 a = "".join([str(x) for x in range(1, m+1)])
 
